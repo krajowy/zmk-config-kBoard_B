@@ -1,0 +1,5 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_KBOARD_B
+    def_bool $(shields_list_contains,kBoard_B)
